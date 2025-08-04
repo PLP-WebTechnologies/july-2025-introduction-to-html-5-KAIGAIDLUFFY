@@ -1,35 +1,57 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jecSxI3G)
-# 📘 Assignment: HTML5 + Accessibility & SEO Basics
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the world of One Piece through a web page designed with HTML5 accessibility and SEO best practices.">
+    <title>One Piece - Accessibility & SEO Example</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the World of One Piece</h1>
+        <p>Discover the Grand Line, meet the Straw Hat Pirates, and explore the legendary One Piece treasure.</p>
+    </header>
 
-## Overview
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="about">About One Piece</a></li>
+            <li><a href="crew">Straw Hat Crew</a></li>
+            <li><a href="contact">Join the Crew</a></li>
+        </ul>
+    </nav>
 
-This assignment will help you solidify your understanding of modern HTML5 structure while applying foundational concepts of web accessibility and search engine optimization (SEO). You’ll create a simple, semantically correct web page that prioritizes both human and machine readability—two pillars of great web design.
+    <main>
+        <section id="about">
+            <h2>About One Piece</h2>
+            <p>One Piece is a Japanese anime and manga series created by Eiichiro Oda. It follows Monkey D. Luffy and his pirate crew as they search for the ultimate treasure known as the One Piece.</p>
+        </section>
 
-## Objective
+        <section id="crew">
+            <h2>Straw Hat Pirates</h2>
+            <article>
+                <h3>Monkey D. Luffy</h3>
+                <p>The captain of the crew, known for his rubber-like body after eating the Gum-Gum Fruit and his dream of becoming the Pirate King.</p>
+            </article>
+            <article>
+                <h3>Roronoa Zoro</h3>
+                <p>The swordsman of the crew who aims to become the world's greatest swordsman, wielding his signature three swords.</p>
+            </article>
+            <article>
+                <h3>Nami</h3>
+                <p>The navigator, with a sharp mind for cartography and a knack for finding treasure.</p>
+            </article>
+        </section>
 
-Build a basic web page using HTML5 semantic tags, applying accessibility best practices and beginner-friendly SEO principles. Your final output should demonstrate a well-structured layout that supports screen readers and is optimized for discoverability.
+        <section id="contact">
+            <h2>Join the Straw Hat Crew</h2>
+            <p>Think you have what it takes to sail the Grand Line? <a href="mailto:join@onepiece.com">Email us</a> and start your adventure!</p>
+        </section>
+    </main>
 
-## Guidelines
+    <footer>
+        <p> 2025 One Piece Fan Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
-Use only HTML5. No CSS or JavaScript is required at this stage. Focus on using meaningful semantic elements to structure your page. Avoid using `<div>` or `<span>` unless absolutely necessary. Ensure your page has clearly defined sections such as a header, navigation, main content, and a footer.
-
-Incorporate accessibility by using proper HTML5 landmarks and attributes that improve navigation for assistive technologies. Your HTML should reflect thoughtful planning of hierarchy and readability, both for users and search engines.
-
-For SEO, emphasize the use of heading tags in the correct order, provide descriptive text, and ensure your content is both human-readable and crawler-friendly. Consider how a search engine would interpret your page in terms of structure and content clarity.
-
-## Deliverables
-
-A single HTML file named `index.html`. It should include:
-
-* A semantic structure using appropriate HTML5 elements.
-* Clear headings in a logical hierarchy.
-* Accessibility enhancements using proper tags and attributes.
-* SEO-friendly metadata and content.
-
-## Tips
-
-* Use HTML5 semantic tags appropriately.
-* Organize content with accessibility in mind.
-* Apply basic on-page SEO techniques.
-* Follow clean, readable HTML code structure.
 
