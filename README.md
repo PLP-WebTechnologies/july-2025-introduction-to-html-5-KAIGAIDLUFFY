@@ -14,9 +14,9 @@
 
     <nav aria-label="Main Navigation">
         <ul>
-            <li><a href="about">About One Piece</a></li>
-            <li><a href="crew">Straw Hat Crew</a></li>
-            <li><a href="contact">Join the Crew</a></li>
+            <li><a href="#about">About One Piece</a></li>
+            <li><a href="#crew">Straw Hat Crew</a></li>
+            <li><a href="#contact">Join the Crew</a></li>
         </ul>
     </nav>
 
